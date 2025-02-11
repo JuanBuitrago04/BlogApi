@@ -57,7 +57,9 @@ DELETE /posts/:id   → Eliminar una publicación
 ## ⚙️ Tecnologías utilizadas
 
 · Node.js - Entorno de ejecución
+
 · Express.js - Framework para el servidor
+
 · MySQL - Base de datos relacional
 
 ## 📜 Licencia
