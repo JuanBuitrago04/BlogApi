@@ -1,22 +1,24 @@
-# BlogApi
+# Blog API 🚀
 
-## Descripción
+API para gestionar publicaciones de blog con Node.js y Express.
 
-BlogApi es una API backend construida con Node.js para gestionar publicaciones de blogs. Proporciona endpoints para crear, leer, actualizar y eliminar entradas de blog.
-
-## Características
-
-- Crear, leer, actualizar y eliminar publicaciones de blog.
-- Construida con Node.js y Express.
-- Puede ser extendida para autenticación de usuarios, comentarios y más.
-
-## Instalación
-
-1. Clona este repositorio:
-
-   ```bash
-   git clone https://github.com/JuanBuitrago04/BlogApi.git
-   ```
-2. Clona este repositorio:
+## Instalación  
 ```bash
-npm install```
+git clone <repo-url>
+cd blogapi
+npm install
+npm start
+```
+
+## Endpoints
+```bash
+GET /posts → Obtener todos los posts
+GET /posts/:id → Obtener un post por ID
+POST /posts → Crear un nuevo post
+PUT /posts/:id → Actualizar un post
+DELETE /posts/:id → Eliminar un post
+```
+
+## Tecnologías
+
+ Node.js + Express
