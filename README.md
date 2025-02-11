@@ -16,3 +16,7 @@ BlogApi es una API backend construida con Node.js para gestionar publicaciones d
 
    ```bash
    git clone https://github.com/JuanBuitrago04/BlogApi.git
+   ```
+2. Clona este repositorio:
+```bash
+npm install```
