@@ -1,24 +1,24 @@
-# Blog API 🚀
+# 📖 Blog API 🚀  
 
-API para gestionar publicaciones de blog con Node.js y Express.
+API RESTful para gestionar publicaciones de blog, desarrollada con **Node.js** y **Express.js**.  
+Permite crear, leer, actualizar y eliminar publicaciones fácilmente.
 
-## Instalación  
+## 📌 Instalación  
+
+### 1️⃣ Clonar el repositorio  
 ```bash
 git clone <repo-url>
 cd blogapi
+```
+
+### 2️⃣ Instalar dependencias
+```bash
 npm install
+```
+
+### 3️⃣ Iniciar el servidor
+```bash
 npm start
 ```
 
-## Endpoints
-```bash
-GET /posts → Obtener todos los posts
-GET /posts/:id → Obtener un post por ID
-POST /posts → Crear un nuevo post
-PUT /posts/:id → Actualizar un post
-DELETE /posts/:id → Eliminar un post
-```
-
-## Tecnologías
-
- Node.js + Express
+La API estará disponible en http://localhost:3000 por defecto.
